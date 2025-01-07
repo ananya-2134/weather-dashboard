@@ -66,7 +66,7 @@ searchBoxInput.addEventListener("keyup", async (event) => {
 gpsButton.addEventListener("click", getUserLocation);
 
 ctaButton.addEventListener("click", () => {
-  window.open(""); // TODO add github URL
+  window.open("https://github.com/ananya-2134/weather-dashboard.git"); // TODO add github URL
 });
 
 topButton.addEventListener("click", scrollToTop);
